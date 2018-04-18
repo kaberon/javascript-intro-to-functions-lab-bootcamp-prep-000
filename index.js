@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function logShout(string) {
 console.log(string.toUpperCase())
 }
@@ -7,6 +8,8 @@ console.log(string.toLowerCase())
 }
 
 
+=======
+>>>>>>> 53963eda2b2a926cac238827a934341d6e6fe17d
 function shout(string) {
   return string.toUpperCase()
   
@@ -17,6 +20,7 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string){ if (string.toLowerCase() === string){
+<<<<<<< HEAD
   return "I can't hear you!"; 
 }
   
@@ -28,6 +32,15 @@ else if ("I love you, Grandma." === string){
 }
 
 var uppercase = "HELLO!"
+=======
+  return "I can't hear you!"; }
+  
+ 
+else if (string.toUpperCase() === string){
+  return "YES INDEED!"; }
+}
+
+>>>>>>> 53963eda2b2a926cac238827a934341d6e6fe17d
 
 uppercase.toUpperCase() === uppercase // true
  
